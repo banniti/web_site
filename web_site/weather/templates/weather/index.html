@@ -1,0 +1,29 @@
+{% extends 'main/base.html' %}
+
+{% block title %}Погода{% endblock %}
+{% block content %}
+
+
+        <div class="row">
+            <h1>Информация о погоде в городе Екатеринбург</h1>
+            <div class="col-6 offset-3">
+
+                <div class="alert alert-info">
+                    <div class="row">
+                        <div class="col-9">
+                            <b>Город: </b>{{ info.city }}<br>
+                            <b>Температура: </b>{{ info.temp }}<sup>o</sup><br>
+                            <b>Влажность: </b>{{ info.humid}}%<br>
+                            <b>Скорость ветра: </b>{{ info.wind}}м/с<br>
+
+                        </div>
+                        <div class="col-2 offset-1">
+                            <img src="http://openweathermap.org/img/w/{{ info.icon }}.png" alt="Фото погоды" class="img-thumbnail">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+{% endblock %}

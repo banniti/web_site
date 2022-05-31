@@ -1,0 +1,29 @@
+{% extends 'main/base.html' %}
+
+{% block title%}Новости{% endblock %}
+{% block content %}
+    <div class="row py-lg-5" xmlns="http://www.w3.org/1999/html">
+      <div class="col-lg-6 col-md-8 mx-auto"><h1 class="fw-light">Новости Екатеринбурга</h1></div>
+    </div>
+    <div class="news">
+            {% if news %}
+            {% for el in news %}
+                    <div class="card shadow-sm">
+
+                        <div class="card-body">
+                            <p class="card-text">{{ el.title }}</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="{% url 'news-detail' el.id %}"><button type="button" class="btn btn-info">Читать</button></a>
+                                </div>
+                                <small class="text-muted">{{ el.date }}</small>
+                            </div>
+                        </div>
+                    </div>
+            {% endfor %}
+            {% else %}
+                <p>У вас нет записей</p>
+            {% endif %}
+    </div>
+{% endblock %}

@@ -1,0 +1,127 @@
+.container{
+    height: 30px;
+}
+.navbar-brand{
+    height: 25px;
+}
+.navbar-brand img{
+    margin-top: -20px;
+    margin-left: -80px;
+    height: 35px;
+    width: 35px;
+}
+.navbar-light .navbar-nav .nav-link {
+    margin-top: 0px;
+    color:#336699
+    font-family: Arial;
+}
+.navbar-nav{
+    padding-left: 50px;
+}
+.nav-item a{
+    margin-left: 30px;
+}
+
+.photo img {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 1520px;
+    height: 400px;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Arial' bold;
+    color: black;
+    text-align: center;
+}
+p{
+    margin-top: 30px;
+    text-indent: 1.5em;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Arial';
+    color: black;
+    text-align: left;
+}
+.line{
+    width: 1520px;
+    border-bottom: 4px solid #C0C0C0;
+}
+
+.fact{
+    margin-top: -40px;
+    margin-left: 40px;
+    padding: 50px;
+}
+.header h3{
+    font-family: Arial bold;
+    font-size: 30px;
+    color: #000000;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.logo1 img {
+   margin-top: 0px;
+   margin-left: 10px;
+   height: 35px;
+   width: 35px;
+}
+.company{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.nav-link{
+    margin-top: -10px;
+    margin-left: -50px;
+    color: #CCCCCC
+    font-family: Arial;
+}
+.line2{
+    margin-top: 20px;
+    width: 1520px;
+    border-bottom: 1px solid #C0C0C0;
+}
+
+.fw-light{
+    margin-top: 30px;
+    text-align: center;
+}
+.nav-item .button_new_news{
+    margin-left: 810px;
+
+ }
+.btn-info{
+    background-color: #C0C0C0;
+    border-color: #C0C0C0;
+ }
+.news-block{
+    width: 1520px;
+
+    margin-left: -60px;
+}
+.col{
+    margin: 10px auto;
+    width: 1450px;
+    height: 20px;
+    border-style: 1px solid green;
+}
+data{
+    margin-top: 10px;
+    color: #666;
+    margin-right: 20px;
+}
+card-body:{
+    max-width: 75%;
+}
+p.card-text{
+    max-width: 75%;
+}
+.fw-light {
+    margin-top: -10px;
+    font-family: Arial bold;
+}
+section{
+    padding: 0 calc(50% - 590);
+}
